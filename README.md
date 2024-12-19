@@ -16,19 +16,19 @@ java –version
 
 # 目錄:
 
-- CH01 課前準備
-- CH02 基本語法
-- CH03 JAVA 技術
-- CH04 題目練習
-- CH05 物件導向程式設計
-- CH06 JAVA SKILLS 實用技巧
-- CH07 貪食蛇(專案)
-- CH08 Google Form
-- CH09 出埃及記遊戲
-- CH10 JAVA 實用語法
-- CH11 JAVA 網頁設計
-- CH12 作業系統與多執行續
-- CH13 JAVA 8 的語法
+- [CH01 第一支 java 程式](ch01)
+- [CH02 基本語法](ch02)
+- [CH03 JAVA 技術](ch03)
+- [CH04 題目練習](ch04)
+- [CH05 物件導向程式設計](ch05)
+- [CH06 JAVA SKILLS 實用技巧](ch06)
+- [CH07 貪食蛇(專案)](ch07)
+- [CH08 Google Form](ch08)
+- [CH09 出埃及記遊戲](ch09)
+- [CH10 JAVA 實用語法](ch10)
+- [CH11 JAVA 網頁設計](ch11)
+- [CH12 作業系統與多執行續](ch12)
+- [CH13 JAVA 8 的語法](ch13)
 
 ## JAVA 指令簡寫
 
