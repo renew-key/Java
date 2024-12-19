@@ -150,9 +150,9 @@ Java 中的 abstract method 是一種只有 method 定義但不包含 implementa
 
 Abstract Class 可以混合使用 abstract 和 non-abstract methods。 所有 Abstract Class 的 subclass 必須要 override 其 abstract super class 的所有 abstract method。
 
-** Abstract Class 無法做 instantiation，不過還是可以作為一種 data type，用來做 Polymorphism。**
+**Abstract Class 無法做 instantiation，不過還是可以作為一種 data type，用來做 Polymorphism。**
 
-** 如果 Abstract Class 永遠無法做 instantiation，那麼 Abstract Class 中的 constructor 的目的是什麼？ 這是因為 constructor 可以通過透過 super() 被 subclass 使用。**
+**如果 Abstract Class 永遠無法做 instantiation，那麼 Abstract Class 中的 constructor 的目的是什麼？ 這是因為 constructor 可以通過透過 super() 被 subclass 使用。**
 
 ## 接口 (Interface)
 
