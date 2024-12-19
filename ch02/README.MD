@@ -8,7 +8,8 @@
 - [Primitive-Non-primitive-的資料類型](#Primitive-Non-primitive-的資料類型)
 - [Relational and Conditional 運算子](#Relational-and-Conditional-運算子)
 - [Arithmetic 運算子](#Arithmetic-運算子)
-- [Java-if-statement](#Java-if-statement)
+- [Java if statement](#Java-if-statement)
+- [Java Switch Statement](#Java-Switch-Statement)
 - [陣列(Array)以及動態陣列(Arraylist)](#陣列Array以及動態陣列Arraylist)
 - [迴圈(Loop)](#迴圈Loop)
 - [Java 使用者圖形介面](#Java-使用者圖形介面)
@@ -231,6 +232,16 @@ public class Main {
 ## Java if statement
 
 Java if 語句是最簡單的決策語句。 它用於決定是否執行某個語句或語句塊，即如果某個條件為真，則執行一個語句塊，否則不執行。
+
+## Java Switch Statement
+
+我們可以把 long if-else if-else statement 使用 switch statement 來做替換。以下為使用 Switch Statement 的幾個限制：
+
+1. 只能用來比較一個 variable
+2. 只能用於==, 其餘的 <, >, >=, <= 皆不支援
+3. 只能用在 int, chars, Strings, or enums
+4. && is not allowed, but || is okay
+5. It has a feature called “fall through”, which can be prevented by using “break”.
 
 ## 陣列(Array)以及動態陣列(Arraylist)
 
