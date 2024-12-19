@@ -59,7 +59,11 @@ x = 5, x = x + 1
 另外，寫程式者習慣(非強迫性)的會把 constants 全部用大寫英文字母表示。
 
 ```java
-  final double PI =3.14 ;
+public class Example {
+    public static void main(String[] args) {
+           final double PI =3.14 ;
+      }
+}
 ```
 
 其他命名規範或是習慣包含：
