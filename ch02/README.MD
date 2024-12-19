@@ -273,3 +273,22 @@ Java return 關鍵字退出 method 並指示 Java 繼續執行主程序。 retur
 一個 method 的簽名(signature)是 指 method 的 name + parameter type and order 用以決定 method 的唯一性。
 
 方法多載 ：當我們有多個具有相同名稱但參數類型不同的 method 時（換句話說，不同的簽名），我們就是在使用 method overloading。
+
+```java
+public class Main {
+      public Main() {}
+        public void add(int a, int b) {
+            System.out.println(a+b);
+        }
+        public void add(String a, String b) {
+            System.out.println(a+' '+b);
+        }}
+    }
+    public static void main(String[] args) {
+        Main m = new Main();
+        //JAVA會自行去判斷
+        m.add(1,2);
+        m.add("Hello","world");
+    }
+}
+```
